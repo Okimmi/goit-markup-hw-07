@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio - Portfolio</title>
+    <!-- Modern normalize -->
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-light-theme">Studio</span></a
+          >
+          <ul class="list menu">
+            <li class="menu-item">
+              <a href="./index.html" class="menu-link link">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="menu-link link active-page"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="address">
+          <ul class="list">
+            <li class="contact-item">
+              <a href="mailto:info@devstudio.com" class="contact-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-item">
+              <a href="tel:+110001111111" class="contact-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <main>
+      <section class="section portfolio-section">
+        <div class="container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="list filter">
+            <li>
+              <button type="button" class="btn filter-btn">All</button>
+            </li>
+            <li>
+              <button type="button" class="btn filter-btn">Web Site</button>
+            </li>
+            <li><button type="button" class="btn filter-btn">App</button></li>
+            <li>
+              <button type="button" class="btn filter-btn">Design</button>
+            </li>
+            <li>
+              <button type="button" class="btn filter-btn">Marketing</button>
+            </li>
+          </ul>
+          <ul class="list portfolio-list">
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-1.jpg"
+                    alt="Banking App Interface Concept"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="portfolio-card-dscr">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-2.jpg"
+                    alt="Cashless Payment"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">Cashless Payment</h2>
+                  <p class="portfolio-card-dscr">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-3.jpg"
+                    alt="Meditation App"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">Meditation App</h2>
+                  <p class="portfolio-card-dscr">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-4.jpg"
+                    alt="Taxi Service"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">Taxi Service</h2>
+                  <p class="portfolio-card-dscr">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-5.jpg"
+                    alt="Screen Illustrations"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">Screen Illustrations</h2>
+                  <p class="portfolio-card-dscr">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-6.jpg"
+                    alt="Online Courses"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">Online Courses</h2>
+                  <p class="portfolio-card-dscr">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-7.jpg"
+                    alt="Instagram Stories Concept"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">
+                    Instagram Stories Concept
+                  </h2>
+                  <p class="portfolio-card-dscr">Design</p>
+                </div></a
+              >
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-8.jpg"
+                    alt="Organic Food"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">Organic Food</h2>
+                  <p class="portfolio-card-dscr">Web Site</p>
+                </div></a
+              >
+            </li>
+            <li class="grid portfolio-card">
+              <a class="link portfolio-card-link" href="">
+                <div class="image-card">
+                  <img
+                    src="./images/portfolio/img-9.jpg"
+                    alt="Fresh Coffee"
+                    width="360"
+                    height="300"
+                  />
+
+                  <p class="overlay-portfolio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem sapiente tenetur tempora, commodi veritatis
+                    corporis necessitatibus sunt ipsam sint tempore est, illum
+                    placeat iusto vero ex architecto, non maxime reprehenderit.
+                  </p>
+                </div>
+                <div class="portfolio-card-text">
+                  <h2 class="portfolio-card-title">Fresh Coffee</h2>
+                  <p class="portfolio-card-dscr">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-dark-theme">Studio</span></a
+          >
+
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="social-media-container">
+          <h2 class="footer-title">Social media</h2>
+          <ul class="media-list list">
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form-wrapper">
+          <h2 class="footer-title">Subscribe</h2>
+          <form class="email-footer-form">
+            <input
+              class="email-footer-input"
+              type="email"
+              name="user_email_subscribe"
+              id="email-input-footer"
+              placeholder=" "
+              required
+            />
+            <label class="email-footer-label" for="email-input-footer"
+              >E-mail
+            </label>
+            <button class="btn footer-form-btn" type="submit">
+              Subscribe
+              <svg class="send-icon" width="24" height="20">
+                <use href="./images/icon.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
