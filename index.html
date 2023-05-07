@@ -27,39 +27,110 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
   <body>
     <header class="header">
       <div class="container header-container">
-        <nav class="nav">
-          <a href="./index.html" class="logo link"
-            >Web<span class="logo-light-theme">Studio</span></a
-          >
-          <ul class="list menu">
-            <li class="menu-item">
-              <a href="./index.html" class="menu-link link active-page"
-                >Studio</a
-              >
-            </li>
-            <li class="menu-item">
-              <a href="./portfolio.html" class="menu-link link">Portfolio</a>
-            </li>
-            <li class="menu-item">
-              <a href="" class="menu-link link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+        <a href="./index.html" class="logo link"
+          >Web<span class="logo-light-theme">Studio</span></a
+        >
 
-        <address class="address">
-          <ul class="list">
-            <li class="contact-item">
-              <a href="mailto:info@devstudio.com" class="contact-link link"
-                >info@devstudio.com</a
+        <button
+          class="menu-btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+        >
+          <svg class="menu-mobile-icon" width="32" height="22">
+            <use href="./images/icon.svg#icon-menu"></use>
+          </svg>
+        </button>
+
+        <div class="menu-wrapper js-menu-container" id="mobile-menu">
+          <button class="close-btn menu-close-btn js-close-menu" type="button">
+            <svg class="close-image" width="8" height="8">
+              <use href="./images/icon.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+
+          <nav class="nav">
+            <ul class="list menu">
+              <li class="menu-item">
+                <a href="./index.html" class="menu-link link active-page"
+                  >Studio</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="./portfolio.html" class="menu-link link">Portfolio</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="address">
+            <ul class="list">
+              <li class="contact-item">
+                <a href="mailto:info@devstudio.com" class="contact-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact-item">
+                <a href="tel:+110001111111" class="contact-link link tel"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="media-list list">
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noreferrer noopener"
               >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="contact-item">
-              <a href="tel:+110001111111" class="contact-link link"
-                >+11 (000) 111-11-11</a
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noreferrer noopener"
               >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-container">
+              <a
+                class="media-link"
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </header>
 
@@ -86,8 +157,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                   <use href="./images/icon.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="list-item-title">Strategy</h3>
-              <p class="list-item-dscr">
+              <h3 class="advantages-list-item-title">Strategy</h3>
+              <p class="list-item-dscr strategy-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -99,7 +170,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                   <use href="./images/icon.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="list-item-title">Punctuality</h3>
+              <h3 class="advantages-list-item-title">Punctuality</h3>
               <p class="list-item-dscr">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -112,7 +183,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                   <use href="./images/icon.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="list-item-title">Diligence</h3>
+              <h3 class="advantages-list-item-title">Diligence</h3>
               <p class="list-item-dscr">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -125,8 +196,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                   <use href="./images/icon.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="list-item-title">Technologies</h3>
-              <p class="list-item-dscr">
+              <h3 class="advantages-list-item-title">Technologies</h3>
+              <p class="list-item-dscr technologies-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -142,33 +213,99 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
 
           <ul class="list">
             <li class="grid">
-              <img
-                class="what-are-we-doing-img"
-                src="./images/what-are-we-doing/img1.jpg"
-                alt="Web page on a computer"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <!-- webp -->
+                <source
+                  srcset="
+                    ./images/what-are-we-doing/img1.webp    1x,
+                    ./images/what-are-we-doing/img1@2x.webp 2x,
+                    ./images/what-are-we-doing/img1@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <!-- jpg -->
+                <source
+                  srcset="
+                    ./images/what-are-we-doing/img1.jpg    1x,
+                    ./images/what-are-we-doing/img1@2x.jpg 2x,
+                    ./images/what-are-we-doing/img1@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  class="what-are-we-doing-img"
+                  src="./images/what-are-we-doing/img1.jpg"
+                  alt="Web page on a computer"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
 
             <li class="grid">
-              <img
-                class="what-are-we-doing-img"
-                src="./images/what-are-we-doing/img2.jpg"
-                alt="Messenger on the smartphone"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <!-- webp -->
+                <source
+                  srcset="
+                    ./images/what-are-we-doing/img2.webp    1x,
+                    ./images/what-are-we-doing/img2@2x.webp 2x,
+                    ./images/what-are-we-doing/img2@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <!-- jpg -->
+                <source
+                  srcset="
+                    ./images/what-are-we-doing/img2.jpg    1x,
+                    ./images/what-are-we-doing/img2@2x.jpg 2x,
+                    ./images/what-are-we-doing/img2@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  class="what-are-we-doing-img"
+                  src="./images/what-are-we-doing/img2.jpg"
+                  alt="Messenger on the smartphone"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
 
             <li class="grid">
-              <img
-                class="what-are-we-doing-img"
-                src="./images/what-are-we-doing/img3.jpg"
-                alt="The hand holds the phone."
-                width="360"
-                height="300"
-              />
+              <picture>
+                <!-- webp -->
+                <source
+                  srcset="
+                    ./images/what-are-we-doing/img3.webp    1x,
+                    ./images/what-are-we-doing/img3@2x.webp 2x,
+                    ./images/what-are-we-doing/img3@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <!-- jpg -->
+                <source
+                  srcset="
+                    ./images/what-are-we-doing/img3.jpg    1x,
+                    ./images/what-are-we-doing/img3@2x.jpg 2x,
+                    ./images/what-are-we-doing/img3@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  class="what-are-we-doing-img"
+                  src="./images/what-are-we-doing/img3.jpg"
+                  alt="The hand holds the phone."
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
           </ul>
         </div>
@@ -179,16 +316,21 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
         <div class="container">
           <h2 class="section-name">Our Team</h2>
 
-          <ul class="list">
+          <ul class="team-section-list list">
             <li class="team-card grid">
               <img
+                srcset="
+                  ./images/team/mark-guerrero.jpg    1x,
+                  ./images/team/mark-guerrero@2x.jpg 2x,
+                  ./images/team/mark-guerrero@3x.jpg 3x
+                "
                 src="./images/team/mark-guerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
               <div class="card-text">
-                <h3 class="list-item-title">Mark Guerrero</h3>
+                <h3 class="team-list-item-title">Mark Guerrero</h3>
                 <p class="job-title">Product Designer</p>
                 <ul class="media-list list">
                   <li class="media-container">
@@ -245,13 +387,18 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
 
             <li class="team-card grid">
               <img
+                srcset="
+                  ./images/team/tom-ford.jpg    1x,
+                  ./images/team/tom-ford@2x.jpg 2x,
+                  ./images/team/tom-ford@3x.jpg 3x
+                "
                 src="./images/team/tom-ford.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
               />
               <div class="card-text">
-                <h3 class="list-item-title">Tom Ford</h3>
+                <h3 class="team-list-item-title">Tom Ford</h3>
                 <p class="job-title">Frontend Developer</p>
                 <ul class="media-list list">
                   <li class="media-container">
@@ -308,13 +455,18 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
 
             <li class="team-card grid">
               <img
+                srcset="
+                  ./images/team/camila-garcia.jpg    1x,
+                  ./images/team/camila-garcia@2x.jpg 2x,
+                  ./images/team/camila-garcia@3x.jpg 3x
+                "
                 src="./images/team/camila-garcia.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
               />
               <div class="card-text">
-                <h3 class="list-item-title">Camila Garcia</h3>
+                <h3 class="team-list-item-title">Camila Garcia</h3>
                 <p class="job-title">Marketing</p>
                 <ul class="media-list list">
                   <li class="media-container">
@@ -371,13 +523,18 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
 
             <li class="team-card grid">
               <img
+                srcset="
+                  ./images/team/daniel-wilson.jpg    1x,
+                  ./images/team/daniel-wilson@2x.jpg 2x,
+                  ./images/team/daniel-wilson@3x.jpg 3x
+                "
                 src="./images/team/daniel-wilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
               />
               <div class="card-text">
-                <h3 class="list-item-title">Daniel Wilson</h3>
+                <h3 class="team-list-item-title">Daniel Wilson</h3>
                 <p class="job-title">UI Designer</p>
                 <ul class="media-list list">
                   <li class="media-container">
@@ -447,7 +604,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg class="customer-icon" width="104" height="56">
+                <svg class="customer-icon">
                   <use href="./images/icon.svg#icon-logo1"></use>
                 </svg>
               </a>
@@ -459,7 +616,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg class="customer-icon" width="104" height="56">
+                <svg class="customer-icon">
                   <use href="./images/icon.svg#icon-logo2"></use>
                 </svg>
               </a>
@@ -471,7 +628,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg class="customer-icon" width="104" height="56">
+                <svg class="customer-icon">
                   <use href="./images/icon.svg#icon-logo3"></use>
                 </svg>
               </a>
@@ -483,7 +640,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg class="customer-icon" width="104" height="56">
+                <svg class="customer-icon">
                   <use href="./images/icon.svg#icon-logo4"></use>
                 </svg>
               </a>
@@ -495,7 +652,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg class="customer-icon" width="104" height="56">
+                <svg class="customer-icon">
                   <use href="./images/icon.svg#icon-logo5"></use>
                 </svg>
               </a>
@@ -507,7 +664,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg class="customer-icon" width="104" height="56">
+                <svg class="customer-icon">
                   <use href="./images/icon.svg#icon-logo6"></use>
                 </svg>
               </a>
@@ -609,7 +766,12 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
 
     <div class="overlay-modal is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" type="button" data-modal-close>
+        <button
+          class="close-btn modal-close-btn"
+          type="button"
+          name="Close batton"
+          data-modal-close
+        >
           <svg class="close-image" width="8" height="8">
             <use href="./images/icon.svg#icon-close-btn"></use>
           </svg>
@@ -673,13 +835,15 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
             required
           />
           <label class="ageement-checkbox-text" for="agreement-checkbox">
-            <span class="custom-checkbox-wrapper">
-              <svg class="custom-checkbox-icon-wrapper">
-                <use
-                  class="custom-checkbox-icon"
-                  href="./images/icon.svg#icon-checked"
-                ></use>
-              </svg>
+            <span class="custom-checkbox-thumb">
+              <span class="custom-checkbox-wrapper">
+                <svg class="custom-checkbox-icon-wrapper">
+                  <use
+                    class="custom-checkbox-icon"
+                    href="./images/icon.svg#icon-checked"
+                  ></use>
+                </svg>
+              </span>
             </span>
             I accept the terms and conditions of the&nbsp;
             <a
@@ -696,5 +860,12 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
