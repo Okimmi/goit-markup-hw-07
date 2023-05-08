@@ -167,6 +167,13 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .narrow-container {
+    width: 552px;
+    padding: 0 0;
+  }
+}
+
 .section {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -297,8 +304,6 @@ img {
 
 .menu-wrapper.is-open {
   transform: translateX(0);
-
-  transition: transform var(--animation-time) var(--animation-time);
 }
 
 .menu-link {
@@ -579,6 +584,7 @@ img {
 
 @media screen and (min-width: 429px) and (max-width: 768px) {
   .hero-section {
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -614,6 +620,7 @@ img {
 
 @media screen and (min-width: 769px) {
   .hero-section {
+    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -708,16 +715,6 @@ img {
   }
 }
 
-@media screen and (min-width: 368px) and (max-width: 1157px) {
-  .strategy-text {
-    width: 320px;
-  }
-
-  .technologies-text {
-    width: 351px;
-  }
-}
-
 .advantages-list {
   --item-in-row: 1;
 
@@ -729,7 +726,8 @@ img {
 @media screen and (min-width: 768px) {
   .advantages-list {
     --item-in-row: 2;
-    gap: var(--distance);
+    column-gap: var(--distance);
+    row-gap: 72px;
 
     flex-direction: row;
     flex-wrap: wrap;
@@ -815,21 +813,10 @@ img {
   gap: var(--distance);
 }
 
-.what-are-we-doing-img {
-  border: 1px solid var(--accent-color);
-}
-
 /* ======= TEAM SECTION STYLES ======= */
 
 .team-section {
   background-color: var(--light-color);
-}
-
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-  .team-section .container {
-    padding-left: 108px;
-    padding-right: 108px;
-  }
 }
 
 .team-card {
@@ -921,12 +908,12 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  column-gap: 16px;
+  row-gap: 72px;
 }
 
 @media screen and (min-width: 768px) {
   .customer-logo {
-    row-gap: 72px;
     column-gap: 24px;
   }
 }
@@ -1191,13 +1178,6 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-  .footer .container {
-    padding-left: 108px;
-    padding-right: 108px;
-  }
-}
-
 @media screen and (min-width: 1157px) {
   .footer .container {
     gap: 0;
@@ -1229,7 +1209,12 @@ img {
 
 .footer .logo {
   margin-bottom: 16px;
-  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .footer .logo {
+    text-align: center;
+  }
 }
 
 .footer-title {
