@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "imgName": "img-1",
+    "title": "Banking App Interface Concept",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatiscorporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "App"
+  },
+  {
+    "id": "2",
+    "imgName": "img-2",
+    "title": "Cashless Payment",
+    "description": "14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App",
+    "type": "Marketing"
+  },
+  {
+    "id": "3",
+    "imgName": "img-3",
+    "title": "Meditation App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatis corporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "App"
+  },
+  {
+    "id": "4",
+    "imgName": "img-4",
+    "title": "Taxi Service",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatis corporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "Marketing"
+  },
+  {
+    "id": "5",
+    "imgName": "img-5",
+    "title": "Screen Illustrations",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatis corporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "Design"
+  },
+  {
+    "id": "6",
+    "imgName": "img-6",
+    "title": "Online Courses",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatis corporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "Marketing"
+  },
+  {
+    "id": "7",
+    "imgName": "img-7",
+    "title": "Instagram Stories Concept",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatis corporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "Design"
+  },
+  {
+    "id": "8",
+    "imgName": "img-8",
+    "title": "Organic Food",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatis corporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "Web Site"
+  },
+  {
+    "id": "9",
+    "imgName": "img-9",
+    "title": "Fresh Coffee",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente tenetur tempora, commodi veritatis corporis necessitatibus sunt ipsam sint tempore est, illum placeat iusto vero ex architecto, non maxime reprehenderit.",
+    "type": "Web Site"
+  }
+]
