@@ -18,7 +18,7 @@ function onFilterClick(e) {
 }
 
 function fetchData(activeFilter) {
-  fetch("/data.json")
+  fetch("../data.json")
     .then((response) => response.json())
     .then((data) => {
       let filteredList = [];
@@ -35,7 +35,7 @@ function fetchData(activeFilter) {
 }
 
 function fetchFilters() {
-  fetch("/data.json")
+  fetch("../data.json")
     .then((response) => response.json())
     .then((data) => {
       const filtersList = [];
